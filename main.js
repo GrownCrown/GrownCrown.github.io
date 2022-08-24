@@ -84,7 +84,7 @@ function contentAnimation() {
     tl.from(".animate-this", { duration: 1, y: 30, opacity: 0, stagger: 0.4, delay: 0.2 });
 }
 
-(function () {
+$(function () {
     barba.init({
         sync: true,
 
